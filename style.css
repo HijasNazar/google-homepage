@@ -6,25 +6,25 @@
     
 }
 .searchbar{
-        
-        position: absolute;
-        top:47%;
-        left: 30%;
-        width: 500px;
-        height: 35px;
-        
-        border: 1px solid grey;
-        border-radius: 20px;
+    position: absolute;
+    top:47%;
+    left: 30%;
+    width: 500px;
+    height: 35px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 20px;
         
 }
 .bar{
     position: relative;
     border:none;
     width: 400px;
-    height: 25px;
+    height: 30px;
     top:2px;
     left: 27px;
     margin: 0.75px;
+    outline: none;
+    font-size: larger;
 }
 #searchicon{
     color: rgb(107, 106, 106);
@@ -51,6 +51,26 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.feelinglucky{
+    position: absolute;
+    top:57%;
+    left: 38%;
+}
+.button1, .button2
+{
+    border: 1px solid #f0f1f5; 
+    background-color:#f0f1f5 ;
+    height: 30px;
+    margin: 3px;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 10px 15px 25px;
+    color: rgb(70, 64, 64);
+    font-size:small;
+}
+
+
 .searchbar:hover {
     box-shadow: 0 2px 11px rgba(33,33,33,.2); 
-  }
+}

@@ -40,8 +40,6 @@
     top:8px;
     width: 14px;
     height: 21px;
-
-    
 }
 .material-icons{
     display: inline;
@@ -59,11 +57,11 @@
 }
 .button1, .button2
 {
-    border: 1px solid #f0f1f5; 
-    background-color:#f0f1f5 ;
+    border: 1px solid #f2f2f2; 
+    background-color:#f2f2f2 ;
     height: 30px;
     margin: 3px;
-    font-size: medium;
+    
     border-radius: 5px;
     padding: 10px 15px 25px;
     color: rgb(70, 64, 64);
@@ -73,4 +71,54 @@
 
 .searchbar:hover {
     box-shadow: 0 2px 11px rgba(33,33,33,.2); 
+}
+.navbar{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#nav2{
+    position: relative;
+    margin-bottom:10px ;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+li {
+    float: right;
+    padding: 10px;
+    margin: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#logo{
+    
+    margin-left: 15px;
+}
+
+.navelements{
+    text-decoration: none;
+    color: rgb(70, 64, 64) ;
+    
+}
+
+#logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#apps{
+   color: rgb(70, 64, 64) ;
+   
+   
+}
+
+.button1:hover, .button2:hover{
+    border: 1px solid rgb(199, 192, 192);
 }

@@ -171,4 +171,22 @@ li {
         left: 28%;
     }
 
+    .privacy{
+        position: absolute;
+        left: 20%;
+        top: 50%
+    }
+
+    .terms{
+        position: absolute;
+        left: 40%;
+        top: 50%
+    }
+
+    .settings{
+        position: absolute;
+        left: 60%;
+        top: 50%
+    }
+
   }

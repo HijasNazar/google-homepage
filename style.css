@@ -1,8 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 #pic{
     display: block;
     position: absolute;
     top: 30%;
     left: 38%;
+    
     
 }
 .searchbar{
@@ -122,3 +127,17 @@ li {
 .button1:hover, .button2:hover{
     border: 1px solid rgb(199, 192, 192);
 }
+
+.footer{
+    background-color: #f2f2f2; 
+    border-top: 1px solid #e4e4e4;
+    color: rgb(70, 64, 64);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    
+    margin: 0px;
+}
+
+
+

@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
+
+
 #pic{
     display: block;
     position: absolute;
@@ -139,5 +141,28 @@ li {
     margin: 0px;
 }
 
+#master-div{
+    background-color: red;
+}
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
 
+    #pic{
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 28%;
+    }
+    
+    .searchbar{
+        position: absolute;
+        top:47%;
+        left: 20%;
+        width: 300px;
+        
+            
+    }
+  }
